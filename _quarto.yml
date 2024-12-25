@@ -3,17 +3,19 @@ project:
   output-dir: docs
 
 website:
-  title: "Mysite"
+  title: "Erez Feuer"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    logo: archive/images/trumpet.png
+    # left:
+      # - href: index.qmd
+    right:
+      - publications.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: [flatly, custom.scss]
     css: styles.css
     toc: true
+    # max-width: "700"
 
 
